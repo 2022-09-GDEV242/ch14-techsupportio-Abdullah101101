@@ -6,13 +6,11 @@ import java.util.HashSet;
  * The support system communicates via text input/output
  * in the text terminal.
  * 
- * This class uses an object of class InputReader to read input
- * from the user, and an object of class Responder to generate responses.
- * It contains a loop that repeatedly reads input and generates
- * output until the users wants to leave.
+ * This class responds to the client by pulling information 
+ * from another txt file (hashResponse.txt) based on the users needs
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @Abdullah Abdulwahab
+ * @version 11.28.2022
  */
 public class SupportSystem
 {
